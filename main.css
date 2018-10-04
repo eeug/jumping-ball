@@ -1,0 +1,17 @@
+.box {
+  background-color: #0799d3;
+  width: 100px;
+  height: 100px;
+ margin-top: 10%;
+  border-radius: 100%;
+           animation: jump .5s linear alternate infinite;
+}
+
+@keyframes jump {
+      
+  0%   {transform: translateY(0px);}
+  50%  {transform: translateY(-100px);}
+  100% {transform: translateY(0px);}
+}
+
+
